@@ -46,7 +46,13 @@ body {
   border: 3px solid #400a5e;
 }
 
-.card-link button a {
+.card-link button:hover {
+  background-color: #400a5e;
+  border: 3px solid white;
+  color: white;
+}
+
+.card-link button {
   text-decoration: none;
   color: #400a5e;
   font-weight: bold;
