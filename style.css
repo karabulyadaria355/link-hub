@@ -4,14 +4,15 @@
 }
 
 body {
-  background-color: #174d93;
+  background-color: #400a5e;
+  color: white;
 }
 
 .card {
   display: flex;
   width: 350px;
   height: 80%;
-  background-color: #7561f8;
+  background-color: #9c6ded;
   flex-direction: column;
   align-items: center;
   padding: 25px 0;
@@ -40,6 +41,15 @@ body {
 .card-link button {
   width: 130px;
   height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #400a5e;
+}
+
+.card-link button a {
+  text-decoration: none;
+  color: #400a5e;
+  font-weight: bold;
 }
 
 img {
